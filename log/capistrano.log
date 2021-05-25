@@ -1,0 +1,182 @@
+# Logfile created on 2021-05-25 14:18:09 +0200 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:18:09 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7718aa1d] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [7718aa1d] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:20:06 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4cea8134] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [4cea8134] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:23:28 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9b05b0fe] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as root@193.170.119.180
+ DEBUG [9b05b0fe] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:31:25 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6768ca11] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as admin@193.170.119.180
+ DEBUG [6768ca11] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:33:35 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3b783ff6] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [3b783ff6] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:36:28 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [555f97e4] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [555f97e4] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:38:18 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [20819c50] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [20819c50] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:39:43 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [dab1a57e] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [dab1a57e] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:46:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8fa9b121] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as admin@193.170.119.180
+ DEBUG [8fa9b121] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [8fa9b121] Finished in 6.283 seconds with exit status 0 (successful).
+ DEBUG [448f7696] Running /usr/bin/env which passenger as admin@193.170.119.180
+ DEBUG [448f7696] Command: /usr/bin/env which passenger
+ DEBUG [448f7696] 	/usr/bin/passenger
+ DEBUG [448f7696] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [d1ed226b] Running /usr/bin/env mkdir -p /tmp as admin@193.170.119.180
+ DEBUG [d1ed226b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [d1ed226b] Finished in 0.142 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-39f2016bd1b3c6e182ea.sh 0.0%
+  INFO Uploading /tmp/git-ssh-39f2016bd1b3c6e182ea.sh 100.0%
+  INFO [c9b4303e] Running /usr/bin/env chmod 700 /tmp/git-ssh-39f2016bd1b3c6e182ea.sh as admin@193.170.119.180
+ DEBUG [c9b4303e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-39f2016bd1b3c6e182ea.sh )
+  INFO [c9b4303e] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [4d3eaacc] Running /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD as admin@193.170.119.180
+ DEBUG [4d3eaacc] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-39f2016bd1b3c6e182ea.sh" ; /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD )
+ DEBUG [4d3eaacc] 	git@gitlab.mediacube.at: Permission denied (publickey).
+ DEBUG [4d3eaacc] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 14:51:38 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0a1755e5] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [0a1755e5] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:14:52 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [baf1c508] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [baf1c508] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [baf1c508] Finished in 3.986 seconds with exit status 1 (failed).
+  WARN rbenv: 2.7.1 is not installed or not found in $HOME/.rbenv/versions/2.7.1 on 193.170.119.180
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:18:10 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e63f05df] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [e63f05df] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [e63f05df] Finished in 4.632 seconds with exit status 1 (failed).
+  WARN rbenv: 2.7.1 is not installed or not found in $HOME/.rbenv/versions/2.7.1 on 193.170.119.180
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:24:54 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ae0a5e4b] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [ae0a5e4b] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [ae0a5e4b] Finished in 4.726 seconds with exit status 0 (successful).
+ DEBUG [fd878895] Running /usr/bin/env which passenger as deploy@193.170.119.180
+ DEBUG [fd878895] Command: /usr/bin/env which passenger
+ DEBUG [fd878895] 	/usr/bin/passenger
+ DEBUG [fd878895] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [dca67497] Running /usr/bin/env mkdir -p /tmp as deploy@193.170.119.180
+ DEBUG [dca67497] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [dca67497] Finished in 0.122 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-4a4c1f550cecec969912.sh 0.0%
+  INFO Uploading /tmp/git-ssh-4a4c1f550cecec969912.sh 100.0%
+  INFO [c0079582] Running /usr/bin/env chmod 700 /tmp/git-ssh-4a4c1f550cecec969912.sh as deploy@193.170.119.180
+ DEBUG [c0079582] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-4a4c1f550cecec969912.sh )
+  INFO [c0079582] Finished in 0.237 seconds with exit status 0 (successful).
+  INFO [708c21a1] Running /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD as deploy@193.170.119.180
+ DEBUG [708c21a1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-4a4c1f550cecec969912.sh" ; /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD )
+ DEBUG [708c21a1] 	git@gitlab.mediacube.at: Permission denied (publickey).
+ DEBUG [708c21a1] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:29:36 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c62a12c6] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [c62a12c6] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [c62a12c6] Finished in 4.115 seconds with exit status 0 (successful).
+ DEBUG [97e12bbd] Running /usr/bin/env which passenger as deploy@193.170.119.180
+ DEBUG [97e12bbd] Command: /usr/bin/env which passenger
+ DEBUG [97e12bbd] 	/usr/bin/passenger
+ DEBUG [97e12bbd] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [eff550a7] Running /usr/bin/env mkdir -p /tmp as deploy@193.170.119.180
+ DEBUG [eff550a7] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [eff550a7] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-d2de01d97ec1edb928a5.sh 0.0%
+  INFO Uploading /tmp/git-ssh-d2de01d97ec1edb928a5.sh 100.0%
+  INFO [12879857] Running /usr/bin/env chmod 700 /tmp/git-ssh-d2de01d97ec1edb928a5.sh as deploy@193.170.119.180
+ DEBUG [12879857] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-d2de01d97ec1edb928a5.sh )
+  INFO [12879857] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [697ea8d8] Running /usr/bin/env git ls-remote https://gitlab.mediacube.at/fhs44417/movienights.git HEAD as deploy@193.170.119.180
+ DEBUG [697ea8d8] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d2de01d97ec1edb928a5.sh" ; /usr/bin/env git ls-remote https://gitlab.mediacube.at/fhs44417/movienights.git HEAD )
+ DEBUG [697ea8d8] 	remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.mediacube.at/fhs44417/movienights.git/'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:31:44 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f3a00d0e] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [f3a00d0e] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [f3a00d0e] Finished in 6.048 seconds with exit status 0 (successful).
+ DEBUG [77f19c32] Running /usr/bin/env which passenger as deploy@193.170.119.180
+ DEBUG [77f19c32] Command: /usr/bin/env which passenger
+ DEBUG [77f19c32] 	/usr/bin/passenger
+ DEBUG [77f19c32] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [0516ffe0] Running /usr/bin/env mkdir -p /tmp as deploy@193.170.119.180
+ DEBUG [0516ffe0] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [0516ffe0] Finished in 0.151 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-debe2478216bad1eb638.sh 0.0%
+  INFO Uploading /tmp/git-ssh-debe2478216bad1eb638.sh 100.0%
+  INFO [90ba7af3] Running /usr/bin/env chmod 700 /tmp/git-ssh-debe2478216bad1eb638.sh as deploy@193.170.119.180
+ DEBUG [90ba7af3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-debe2478216bad1eb638.sh )
+  INFO [90ba7af3] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [3b2e88a1] Running /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD as deploy@193.170.119.180
+ DEBUG [3b2e88a1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-debe2478216bad1eb638.sh" ; /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD )
+ DEBUG [3b2e88a1] 	git@gitlab.mediacube.at: Permission denied (publickey).
+ DEBUG [3b2e88a1] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:32:50 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2652273b] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.180
+ DEBUG [2652273b] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [2652273b] Finished in 4.076 seconds with exit status 0 (successful).
+ DEBUG [b5c10b94] Running /usr/bin/env which passenger as deploy@193.170.119.180
+ DEBUG [b5c10b94] Command: /usr/bin/env which passenger
+ DEBUG [b5c10b94] 	/usr/bin/passenger
+ DEBUG [b5c10b94] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [5fc6df4e] Running /usr/bin/env mkdir -p /tmp as deploy@193.170.119.180
+ DEBUG [5fc6df4e] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [5fc6df4e] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-512846d02e4c7ce2353d.sh 0.0%
+  INFO Uploading /tmp/git-ssh-512846d02e4c7ce2353d.sh 100.0%
+  INFO [99454171] Running /usr/bin/env chmod 700 /tmp/git-ssh-512846d02e4c7ce2353d.sh as deploy@193.170.119.180
+ DEBUG [99454171] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-512846d02e4c7ce2353d.sh )
+  INFO [99454171] Finished in 0.230 seconds with exit status 0 (successful).
+  INFO [6de6ba70] Running /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD as deploy@193.170.119.180
+ DEBUG [6de6ba70] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-512846d02e4c7ce2353d.sh" ; /usr/bin/env git ls-remote git@gitlab.mediacube.at:fhs44417/movienights.git HEAD )
+ DEBUG [6de6ba70] 	git@gitlab.mediacube.at: Permission denied (publickey).
+ DEBUG [6de6ba70] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
