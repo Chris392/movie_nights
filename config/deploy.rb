@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "movienights"
-set :repo_url, "git@gitlab.mediacube.at:fhs44417/movienights.git"
+set :repo_url, "https://github.com/Chris392/movienights.git"
 
 
 # Default branch is :master
