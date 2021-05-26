@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: best_cats_production
-  username: best_cats
-  password: <%= ENV['BEST_CATS_DATABASE_PASSWORD'] %>
+  username: deploy
+  password: deploy
